@@ -11,8 +11,6 @@ connection = pymysql.connect(host='localhost',
 							charset='utf8',
 							cursorclass=pymysql.cursors.DictCursor)
 
-
-## VIEW ALL TASKS ##
 @app.route('/')
 def home():
 
